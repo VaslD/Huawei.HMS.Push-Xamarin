@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Huawei.HMS.OpenDevice</id>
+        <version>3.0.2.300</version>
+        <title>Huawei.HMS.OpenDevice</title>
+        <authors>Yi Ding</authors>
+        <owners>Yi Ding</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>com.huawei.hms:opendevice:3.0.2.300</description>
+        <dependencies>
+            <group targetFramework="MonoAndroid90">
+                <dependency id="Huawei.HMS.Base" version="[3.0.2.300]" />
+            </group>
+        </dependencies>
+    </metadata>
+</package>

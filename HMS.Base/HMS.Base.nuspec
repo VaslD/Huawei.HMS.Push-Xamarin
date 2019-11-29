@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Huawei.HMS.Base</id>
+        <version>3.0.2.300</version>
+        <title>Huawei.HMS.Base</title>
+        <authors>Yi Ding</authors>
+        <owners>Yi Ding</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>com.huawei.hms:base:3.0.2.300</description>
+        <dependencies>
+            <group targetFramework="MonoAndroid90">
+                <dependency id="Huawei.HMF.Tasks" version="[1.3.1.301]" />
+                <dependency id="Huawei.HMS.Network.GRS" version="[1.0.9.302]" />
+                <dependency id="Huawei.AGConnect.Core" version="[1.0.0.300]" />
+            </group>
+        </dependencies>
+    </metadata>
+</package>

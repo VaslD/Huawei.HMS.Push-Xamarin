@@ -13,7 +13,6 @@ The solution contains Xamarin.Android bindings targeting Android 9.0 (API level 
 Solution 文件包含以下运行目标为安卓 9.0 (API level 28) 的 Xamarin bindings 项目：
 
 - com.huawei.hmf:tasks:1.3.1.301
-- com.huawei.agconnect:agcp:1.0.0.300
 - com.huawei.agconnect:agconnect-core:1.0.0.300
 - com.huawei.hms:network-common:1.0.9.302
 - com.huawei.hms:network-grs:1.0.9.302
