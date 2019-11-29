@@ -1,0 +1,41 @@
+﻿<metadata>
+  <!-- Namespaces -->
+  <attr path="/api/package[@name='com.huawei.hms.push']"
+        name="managedName">
+    Huawei.HMS.Push
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.push.ups']"
+        name="managedName">
+    Huawei.HMS.Push.UPS
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.push.ups.entity']"
+        name="managedName">
+    Huawei.HMS.Push.UPS.Entity
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.push']"
+        name="managedName">
+    Huawei.HMS.Support.API.Push
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.push.service']"
+        name="managedName">
+    Huawei.HMS.Support.API.Push.Service
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.push']"
+        name="managedName">
+    Huawei.HMS.Support.API.Entity.Push
+  </attr>
+
+  <!-- Classes -->
+  <attr path="/api/package[@name='com.huawei.hms.push']/class[@name='HmsMessageService']"
+        name="managedName">
+    HMSMessageService
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.push']/class[@name='HmsMessaging']"
+        name="managedName">
+    HMSMessaging
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.push.service']/class[@name='HmsMsgService']"
+        name="managedName">
+    HMSMessageService
+  </attr>
+</metadata>

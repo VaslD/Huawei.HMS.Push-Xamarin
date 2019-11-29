@@ -1,0 +1,5 @@
+﻿<metadata>
+  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hianalytics')]" />
+  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms')]" />
+  <remove-node path="/api/package[starts-with(@name, 'com.huawei.updatesdk')]" />
+</metadata>
