@@ -1,3 +1,43 @@
 ﻿<metadata>
-  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms')]" />
+  <remove-node path="/api/package[@name='com.huawei.hms.aaid']/class[@name='HmsInstanceIdEx']" />
+  <remove-node path="/api/package[@name='com.huawei.hms.aaid.entity']/class[not(starts-with(@name, 'AAID'))]" />
+  <attr
+    path="/api/package[@name='com.huawei.hms.aaid']/class[@name='HmsInstanceId']/method[@name='getAAID' and count(parameter)=0]"
+    name="propertyName" />
+  <attr
+    path="/api/package[@name='com.huawei.hms.aaid']/class[@name='HmsInstanceId']/method[@name='getId' and count(parameter)=0]"
+    name="propertyName" />
+
+  <!-- Namespaces -->
+  <attr path="/api/package[@name='com.huawei.hms.aaid']"
+        name="managedName">
+    Huawei.HMS.AAID
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.aaid.entity']"
+        name="managedName">
+    Huawei.HMS.AAID.Entity
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.opendevice']"
+        name="managedName">
+    Huawei.HMS.OpenDevice
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.entity.opendevice']"
+        name="managedName">
+    Huawei.HMS.Support.API.Entity.OpenDevice
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hms.support.api.opendevice']"
+        name="managedName">
+    Huawei.HMS.Support.API.OpenDevice
+  </attr>
+
+  <!-- Classes -->
+  <attr path="/api/package[@name='com.huawei.hms.aaid']/class[@name='HmsInstanceId']"
+        name="managedName">
+    HMSInstanceID
+  </attr>
+
+  <attr path="/api/package[@name='com.huawei.hms.opendevice']/class[@name='OpenDevice']"
+        name="managedName">
+    HWOpenDevice
+  </attr>
 </metadata>

@@ -1,3 +1,17 @@
 ﻿<metadata>
-  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hmf')]" />
+  <!-- Namespaces -->
+  <attr path="/api/package[@name='com.huawei.hmf.tasks']"
+        name="managedName">
+    Huawei.HMF.Tasks
+  </attr>
+
+  <!-- Classes -->
+  <attr path="/api/package[@name='com.huawei.hmf.tasks']/class[@name='Task']"
+        name="managedName">
+    HWTask
+  </attr>
+  <attr path="/api/package[@name='com.huawei.hmf.tasks']/class[@name='Tasks']"
+        name="managedName">
+    HWTasks
+  </attr>
 </metadata>

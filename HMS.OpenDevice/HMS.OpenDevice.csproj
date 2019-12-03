@@ -27,6 +27,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <NoWarn>CS0108;CS0109;CS0114</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>portable</DebugType>
@@ -35,11 +36,13 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <NoWarn>CS0108;CS0109;CS0114</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -54,6 +57,10 @@
     <LibraryProjectZip Include="Jars\opendevice-3.0.2.300.aar" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HMF.Tasks\HMF.Tasks.csproj">
+      <Project>{6915f244-42ba-4d8d-8d91-7fb952fdbe23}</Project>
+      <Name>HMF.Tasks</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HMS.Base\HMS.Base.csproj">
       <Project>{46bab45d-43cc-423b-9071-de4f1be850de}</Project>
       <Name>HMS.Base</Name>

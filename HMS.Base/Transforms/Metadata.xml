@@ -1,5 +1,24 @@
 ﻿<metadata>
   <remove-node path="/api/package[starts-with(@name, 'com.huawei.hianalytics')]" />
-  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms')]" />
   <remove-node path="/api/package[starts-with(@name, 'com.huawei.updatesdk')]" />
+  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.actions')]" />
+  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.activity')]" />
+  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.adapter')]" />
+  <remove-node path="/api/package[@name='com.huawei.hms.api']" />
+  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.common')]" />
+  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.support')]" />
+  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.update')]" />
+  <remove-node path="/api/package[starts-with(@name, 'com.huawei.hms.utils')]" />
+  <remove-node path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='AbstractMessageEntity']" />
+  <remove-node path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='RequestHeader']" />
+  <remove-node path="/api/package[@name='com.huawei.hms.core.aidl']/class[@name='ResponseHeader']" />
+
+  <!-- Namespaces -->
+  <attr path="/api/package[@name='com.huawei.hms.core.aidl']"
+        name="managedName">
+    Huawei.HMS.Core.AIDL
+  </attr>
+
+  <!-- Classes -->
+
 </metadata>
